@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{8BD0167A-10BD-485A-AA1C-F2B009F7E896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTE_ERP.BLL", "DTE_ERP.BLL\DTE_ERP.BLL.csproj", "{CE08134E-B7F4-4B45-B8F0-09B1560DF760}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTE_ERP.CommonUtil", "DTE_ERP.CommonUtil\DTE_ERP.CommonUtil.csproj", "{173001B0-BC4E-4992-8001-6456033597C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTE_ERP.DAL", "DTE_ERP.DAL\DTE_ERP.DAL.csproj", "{BCAF20DE-F289-4BDF-BB4A-9100CFE00C02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTE_ERP.Entity", "DTE_ERP.Entity\DTE_ERP.Entity.csproj", "{E921532D-9FC8-42FE-8068-5368C36473EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalReferences", "ExternalReferences", "{0037666F-3BDE-4B96-8591-70239AF828FD}"
+	ProjectSection(SolutionItems) = preProject
+		ExternalReferences\ASTreeView.dll = ExternalReferences\ASTreeView.dll
+		ExternalReferences\DropDownCheckBoxes.dll = ExternalReferences\DropDownCheckBoxes.dll
+		ExternalReferences\log4net.dll = ExternalReferences\log4net.dll
+		ExternalReferences\Microsoft.Practices.EnterpriseLibrary.Common.dll = ExternalReferences\Microsoft.Practices.EnterpriseLibrary.Common.dll
+		ExternalReferences\Microsoft.Practices.EnterpriseLibrary.Data.dll = ExternalReferences\Microsoft.Practices.EnterpriseLibrary.Data.dll
+		ExternalReferences\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll = ExternalReferences\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+		ExternalReferences\Microsoft.Practices.ObjectBuilder.dll = ExternalReferences\Microsoft.Practices.ObjectBuilder.dll
+		ExternalReferences\MyControl.dll = ExternalReferences\MyControl.dll
+		ExternalReferences\MyFramework.Data.dll = ExternalReferences\MyFramework.Data.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{0A241ACF-20EF-47D9-80F9-B0758CE6494B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{627C9EED-E28A-445C-BFCF-C8BF458963CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE08134E-B7F4-4B45-B8F0-09B1560DF760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE08134E-B7F4-4B45-B8F0-09B1560DF760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE08134E-B7F4-4B45-B8F0-09B1560DF760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE08134E-B7F4-4B45-B8F0-09B1560DF760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{173001B0-BC4E-4992-8001-6456033597C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173001B0-BC4E-4992-8001-6456033597C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173001B0-BC4E-4992-8001-6456033597C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173001B0-BC4E-4992-8001-6456033597C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCAF20DE-F289-4BDF-BB4A-9100CFE00C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCAF20DE-F289-4BDF-BB4A-9100CFE00C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCAF20DE-F289-4BDF-BB4A-9100CFE00C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCAF20DE-F289-4BDF-BB4A-9100CFE00C02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E921532D-9FC8-42FE-8068-5368C36473EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E921532D-9FC8-42FE-8068-5368C36473EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E921532D-9FC8-42FE-8068-5368C36473EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E921532D-9FC8-42FE-8068-5368C36473EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A241ACF-20EF-47D9-80F9-B0758CE6494B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A241ACF-20EF-47D9-80F9-B0758CE6494B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A241ACF-20EF-47D9-80F9-B0758CE6494B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A241ACF-20EF-47D9-80F9-B0758CE6494B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{627C9EED-E28A-445C-BFCF-C8BF458963CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{627C9EED-E28A-445C-BFCF-C8BF458963CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{627C9EED-E28A-445C-BFCF-C8BF458963CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{627C9EED-E28A-445C-BFCF-C8BF458963CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE08134E-B7F4-4B45-B8F0-09B1560DF760} = {8BD0167A-10BD-485A-AA1C-F2B009F7E896}
+		{173001B0-BC4E-4992-8001-6456033597C6} = {8BD0167A-10BD-485A-AA1C-F2B009F7E896}
+		{BCAF20DE-F289-4BDF-BB4A-9100CFE00C02} = {8BD0167A-10BD-485A-AA1C-F2B009F7E896}
+		{E921532D-9FC8-42FE-8068-5368C36473EE} = {8BD0167A-10BD-485A-AA1C-F2B009F7E896}
+	EndGlobalSection
+EndGlobal
